@@ -5,7 +5,7 @@ import 'package:geolocator/geolocator.dart';
 
 /// página inciial do aplicativo após o login, que contém os botões para o funcionario realizar o
 /// check-in, pausa, retorno (da pausa) e o check-out da obra
-/// ao clicar, é lançado para um banco de dados firebase os dados de latitude, longitude, status (em obra e fora de obra) e o horario
+/// ao clicar, o aplicativo gera a latitude, longitude e o endereço de onde o funcionario está
 /// que foi clicado em cada botão
 
 
@@ -146,8 +146,10 @@ class _HomePageState extends State<HomePage> {
                 ),
                 SizedBox(width: 30), // Espaçamento entre os botões
                 ElevatedButton(
-                  onPressed: () {
-                    // Adicione a lógica para o botão "Pausa" aqui
+                  onPressed: () async {
+                    _currentLocation= await _getCurrentLocation();
+                    await _getAddressFromCoordinates();
+                    await _updateLocationAndAddress();
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.orange[500], // Note que "bege" não é uma cor padrão, você pode personalizar a cor.
@@ -171,8 +173,10 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 ElevatedButton(
-                  onPressed: () {
-                    // Adicione a lógica para o botão "Retorno" aqui
+                  onPressed: () async {
+                    _currentLocation= await _getCurrentLocation();
+                    await _getAddressFromCoordinates();
+                    await _updateLocationAndAddress();
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.yellow.withOpacity(0.7),
@@ -191,8 +195,10 @@ class _HomePageState extends State<HomePage> {
                 ),
                 SizedBox(width: 30), // Espaçamento entre os botões
                 ElevatedButton(
-                  onPressed: () {
-                    // Adicione a lógica para o botão "Saída" aqui
+                  onPressed: () async {
+                    _currentLocation= await _getCurrentLocation();
+                    await _getAddressFromCoordinates();
+                    await _updateLocationAndAddress();
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red.withOpacity(0.8), // Use a cor "redAccent" para vermelho claro
