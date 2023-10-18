@@ -1,3 +1,5 @@
+
+https://youtu.be/ly6207Dw0-0 (VIDEO DO PROJETO COM MELHOR QUALIDADE)
 O projeto para o cliente, que é uma construtora fictícia com nome "Obra Prima", consiste em um aplicativo android na linguagem flutter.
 
 
@@ -80,4 +82,4 @@ Observações:
   -O aplicativo é apenas uma demonstração básica do projeto, a versão completa utilizaria a mesma ideia mas com conceitos mais avançados,
 tratamentos de erros, validações maiores, uma interface mais aprimorada e a utilização de um banco de dados Google Firebase, SQLite ou uma API com o mySQL para registro do funcionário e lançamento da tabela proposta acima.
 
-https://youtu.be/ly6207Dw0-0 (VIDEO DO PROJETO COM MELHOR QUALIDADE)
+
