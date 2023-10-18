@@ -47,6 +47,9 @@ Aqui o usuário faz o login em sua conta existente no banco de dados;
 
   Ao clicar em uma das opções, o sistema pede a permissão para localização do usuário e gera no banco de dados o id, status, as coordenadas de latitude e longitude e o horário em que foi capturada a localização. Essa funcionalidade garante que a empresa tenha o controle de que seu funcionário está na obra ou não.
 
+  ![image](https://github.com/vtrod/msiChallenge/assets/34226821/2f070a5f-beb8-42f0-9907-55bb5a93e60c)
+
+
    
 
 3. Exemplo da tabela no banco de dados
