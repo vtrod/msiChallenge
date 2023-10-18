@@ -21,13 +21,17 @@ endereço atual e horário em que ele realizou o check-in pelo banco de dados. E
 
    
    ![image](https://github.com/vtrod/msiChallenge/assets/34226821/257070b9-6573-47f1-80e3-f66cb8b04526)
+
+   
 Aqui o usuário faz o login em sua conta existente no banco de dados;
 
 
-2. Página de controle do funcionário
+3. Página de controle do funcionário
    
 
-   Aqui o usuário tem as opções de "Check-in" - para realizar o check-in no local da obra;
+   Aqui o usuário tem as opções de
+   
+                                "Check-in" - para realizar o check-in no local da obra;
    
                                 "Pausa"    - caso precise sair da obra por um período de tempo;
    
@@ -41,7 +45,7 @@ Aqui o usuário faz o login em sua conta existente no banco de dados;
 
    
 
-3. Exemplo da tabela no banco de dados
+4. Exemplo da tabela no banco de dados
 
 
 
@@ -62,7 +66,7 @@ Observações:
   -As páginas foram desenvolvidas utilizando o Android Studio e o flutter na versão 3.13.7.
   
   
-  -Para testes, utilizar o username: admin@admin.com
+  -Para testes, utilizar o username: admin@admin.com e
                            senha: admin
   
   
