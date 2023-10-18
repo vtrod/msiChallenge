@@ -26,7 +26,7 @@ endereço atual e horário em que ele realizou o check-in pelo banco de dados. E
 Aqui o usuário faz o login em sua conta existente no banco de dados;
 
 
-3. Página de controle do funcionário
+2. Página de controle do funcionário
    
 
    Aqui o usuário tem as opções de
@@ -39,13 +39,17 @@ Aqui o usuário faz o login em sua conta existente no banco de dados;
    
                                 "Saída"    - para sair da obra e realizar o check-out.
 
+ 
+
 
    
-   ![image](https://github.com/vtrod/msiChallenge/assets/34226821/971c4b06-6324-4d8b-9430-0336002edf51)
+   ![image](https://github.com/vtrod/msiChallenge/assets/34226821/6394f845-4b39-4f97-b2cc-485e5d5f1c7e)
+
+  Ao clicar em uma das opções, o sistema pede a permissão para localização do usuário e gera no banco de dados o id, status, as coordenadas de latitude e longitude e o horário em que foi capturada a localização. Essa funcionalidade garante que a empresa tenha o controle de que seu funcionário está na obra ou não.
 
    
 
-4. Exemplo da tabela no banco de dados
+3. Exemplo da tabela no banco de dados
 
 
 
