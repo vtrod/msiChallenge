@@ -45,7 +45,8 @@ Aqui o usuário faz o login em sua conta existente no banco de dados;
  
 
 
-   ![image](https://github.com/vtrod/msiChallenge/assets/34226821/6394f845-4b39-4f97-b2cc-485e5d5f1c7e)
+   ![image](https://github.com/vtrod/msiChallenge/assets/34226821/ceb5849d-da38-4ff8-bece-7e1786f8bd0c)
+
    
 
   Ao clicar em uma das opções, o sistema pede a permissão para localização do usuário e gera no banco de dados o id, status, as coordenadas de latitude e longitude e o horário em que foi capturada a localização. Essa funcionalidade garante que a empresa tenha o controle de que seu funcionário está na obra ou não.
