@@ -1,5 +1,6 @@
 
-https://youtu.be/ly6207Dw0-0 (VIDEO DO PROJETO COM MELHOR QUALIDADE)
+https://youtu.be/ly6207Dw0-0 (VIDEO DO PROJETO COM MELHOR QUALIDADE).
+
 O projeto para o cliente, que é uma construtora fictícia com nome "Obra Prima", consiste em um aplicativo android na linguagem flutter.
 
 
@@ -9,7 +10,7 @@ As funções desse aplicativo foram pensadas para que a construtora pudesse real
 A ideia do aplicativo é que o funcionário consiga fazer o check-in e check-out de uma obra clicando somente em um botão, que pega a localização atual do celular desse funcionário.
 
 
-O aplicativo pega a localização do usuário através do serviço de localização do google e mostra para a empresa através de um banco de dados como o SQL ou Firebase, e a empresa tem acesso ao id do funcionário cadastrado no sistema,, o status (em obra, em pausa ou fora de obra) a latitude, longitude,
+O aplicativo pega a localização do usuário através do serviço de localização do google e mostra para a empresa através de um banco de dados como o SQL ou Firebase, e a empresa tem acesso ao id do funcionário cadastrado no sistema, o status (em obra, em pausa ou fora de obra) a latitude, longitude,
 endereço atual e horário em que ele realizou o check-in pelo banco de dados. Esses dados, por estarem em um SGBD, são fáceis de serem capturados e facilitam o controle da empresa aos funcionários presentes.
 
 
@@ -51,6 +52,7 @@ Aqui o usuário faz o login em sua conta existente no banco de dados;
 
   ![image](https://github.com/vtrod/msiChallenge/assets/34226821/2f070a5f-beb8-42f0-9907-55bb5a93e60c)
 
+![image](https://github.com/vtrod/msiChallenge/assets/34226821/93f8a938-00d8-4578-94f7-ce7e1b137ef7)
 
    
 
