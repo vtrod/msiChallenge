@@ -54,6 +54,9 @@ Aqui o usuário faz o login em sua conta existente no banco de dados;
   
 
 ![image](https://github.com/vtrod/msiChallenge/assets/34226821/93f8a938-00d8-4578-94f7-ce7e1b137ef7)
+
+
+Exemplo com um debug teste que mostra o funcionamento do código com a função de captura de latitude e longitude 
 ![image](https://github.com/vtrod/msiChallenge/assets/34226821/2f070a5f-beb8-42f0-9907-55bb5a93e60c)
 
    
