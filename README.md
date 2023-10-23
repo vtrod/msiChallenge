@@ -1,6 +1,3 @@
-*o video que fiz o upload no google drive precisava ter no máximo 10 mb, entao a duração foi encurtada  
-https://youtu.be/ly6207Dw0-0 (VIDEO DO PROJETO COM MELHOR QUALIDADE).
-
 O projeto para o cliente, que é uma construtora fictícia com nome "Obra Prima", consiste em um aplicativo android na linguagem flutter.
 
 
